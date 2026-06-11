@@ -1,0 +1,14 @@
+@import url('https://googleapis.com');
+
+body{
+    background: #37a5ff;
+    font-family: 'Comfortaa',sans-serif;
+}
+hr{
+    border: none;
+    height: 5px;
+    background-color: black;
+}
+.intro{
+    text-align: center;
+}
