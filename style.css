@@ -1,3 +1,8 @@
+*{
+    font-family: 'Comfortaa',sans-serif;
+}
+
+
 body{
     background: #e4f3ff;
     font-family: 'Comfortaa',sans-serif;
@@ -40,7 +45,7 @@ box-shadow: 0 0 20px rgb(5, 0, 152);
     padding: 15px;
     height: 500px;
     width: 430px;
-    border-color:5px solid rgb(255, 255, 255);
+    border:5px solid rgb(255, 255, 255);
     border-radius: 3px;
     font-family: 'Comfortaa',sans-serif;
 }
