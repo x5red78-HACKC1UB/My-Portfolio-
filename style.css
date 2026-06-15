@@ -16,7 +16,7 @@ hr{
     text-align: center;
     padding: 20px;
     border: 2px solid rgba(0, 0, 0, 0.007);
-    border-radius: 1px;/*My standard number for rounded edges. Did you know 2 is the first prime number?*/
+    border-radius: 2px;/*. Did you know 2 is the first prime number?*/
 }
 .coding{
     margin-left: 25px;
@@ -36,5 +36,11 @@ box-shadow: 0 0 20px rgb(5, 0, 152);
 
 }
 .container2{
-    
+    background-color: rgb(74, 112, 112);
+    padding: 15px;
+    height: 500px;
+    width: 430px;
+    border-color:5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-family: 'Comfortaa',sans-serif;
 }
