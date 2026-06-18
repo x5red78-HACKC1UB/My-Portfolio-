@@ -1,5 +1,6 @@
 *{
     font-family: 'Comfortaa',sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -48,4 +49,54 @@ box-shadow: 0 0 20px rgb(5, 0, 152);
     border:5px solid rgb(255, 255, 255);
     border-radius: 3px;
     font-family: 'Comfortaa',sans-serif;
+    transition: transform 0.3s ease;
 }
+ .container2:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 20px rgb(0, 132, 152);
+ }
+ .container3{
+    background-color: rgb(227, 247, 249);
+    padding: 14px;
+    height: 500px;
+    width: 430px;
+    border:2px solid black ;
+    border-radius: 4px;
+     transition: transform 0.3s ease;
+ }
+  .container3:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 20px rgb(2, 12, 99);
+ }
+ .container{
+    display: flex;
+    gap:20px;
+    flex-direction: row;
+ }
+
+ img{
+    border-radius: 3px;
+ }
+ .passwordgeneratorimg{
+    border:2px solid rgb(0, 46, 90) ;
+ }
+ .githubrepo{
+    padding: 12px;
+    border:2px solid black ;
+    border-radius: 4px;
+    font-family: 'Comfortaa',sans-serif;
+ }
+ .actualweb{
+    padding: 12px;
+    border:2px solid black ;
+    border-radius: 4px;
+    font-family: 'Comfortaa',sans-serif;
+ }
+  .githubrepo:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 20px rgb(72, 2, 2);
+ }
+ .actualweb:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 20px rgb(1, 54, 38);
+ }
