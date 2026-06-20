@@ -42,7 +42,7 @@ box-shadow: 0 0 20px rgb(5, 0, 152);
 
 }
 .container2{
-    background-color: rgb(74, 112, 112);
+    background-color: rgb(55, 36, 0);
     padding: 15px;
     height: 500px;
     width: 430px;
@@ -99,4 +99,7 @@ box-shadow: 0 0 20px rgb(72, 2, 2);
  .actualweb:hover{
     transform: scale(1.05);
 box-shadow: 0 0 20px rgb(1, 54, 38);
+ }
+ .light-dark{
+
  }
