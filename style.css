@@ -100,6 +100,21 @@ box-shadow: 0 0 20px rgb(72, 2, 2);
     transform: scale(1.05);
 box-shadow: 0 0 20px rgb(1, 54, 38);
  }
+
+.backbutton{
+    padding: 12px;
+    border:2px solid black ;
+    border-radius: 4px;
+    font-family: 'Comfortaa',sans-serif;
+ }
+
+
+
+.backbutton:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 20px rgb(1, 54, 38);
+ }
+
  .light-dark{
 
  }
