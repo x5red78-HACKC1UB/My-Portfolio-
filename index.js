@@ -4,7 +4,8 @@ const actualdemo = document.getElementById("actualweb");
 const githubrepo1= document.getElementById("githubrepo1");
 const actualdemo1 = document.getElementById("actualweb1");
 const lightdark= document.getElementById("light-dark");
-const back= document.getElementById("back")
+const back= document.getElementById("back");
+const intro= document.getElementById("greetings");
 if(githubrepo){
 githubrepo.addEventListener("click",()=>{
 window.location.href="https://github.com/x5red78-HACKC1UB/money-cliker"
@@ -38,9 +39,11 @@ window.location.href="index.html"
 
 }
 if (lightdark) {
-  lightdark.addEventListener(click,()=>{
+  lightdark.addEventListener("click",()=>{
  if (lightdark.textContent==="☼") {
   lightdark.textContent ="⏾"
+  document.body.style.backgroundColor="black";
+  intro.style.color="white"
  } else {
    lightdark.textContent ="☼"
  }
