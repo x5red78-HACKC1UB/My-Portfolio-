@@ -32,10 +32,19 @@ window.location.href="https://x5red78-hackc1ub.github.io/password-generator/"
 if (back) {
   
 
-back.addEventListener(click, ()=>{
+back.addEventListener("click", ()=>{
 window.location.href="index.html"
 });
 
+}
+if (lightdark) {
+  lightdark.addEventListener(click,()=>{
+ if (lightdark.textContent==="☼") {
+  lightdark.textContent ="⏾"
+ } else {
+   lightdark.textContent ="☼"
+ }
+  });
 }
 
 
