@@ -46,6 +46,8 @@ if (lightdark) {
   intro.style.color="white"
  } else {
    lightdark.textContent ="☼"
+   document.body.style.backgroundColor="#e4f3ff";
+   intro.style.color="black";
  }
   });
 }
