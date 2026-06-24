@@ -1,35 +1,54 @@
 const codingButton = document.getElementById("codeprojects");
-const githubrepo= document.getElementById("githubrepo");
-const actualdemo = document.getElementById("actualweb");
-const githubrepo1= document.getElementById("githubrepo1");
-const actualdemo1 = document.getElementById("actualweb1");
+const moneyclickerrepo= document.getElementById("githubrepomoney");
+const moneyclickeractualdemo = document.getElementById("actualwebmoney");
+const passwordrepo= document.getElementById("githubrepopassword");
+const passwordemo = document.getElementById("actualwebpasswors");
 const lightdark= document.getElementById("light-dark");
 const back= document.getElementById("back");
 const intro= document.getElementById("greetings");
-if(githubrepo){
-githubrepo.addEventListener("click",()=>{
+
+
+const calcrepo= document.getElementById("githubrepocalc");
+const calcdemo = document.getElementById("actualwebcalc");
+
+
+
+
+
+if(moneyclickerrepo){
+moneyclickerrepo.addEventListener("click",()=>{
 window.location.href="https://github.com/x5red78-HACKC1UB/money-cliker"
 });
 };
-if (actualdemo) {
+if (moneyclickeractualdemo) {
   
-  actualdemo.addEventListener("click", () =>{
+  moneyclickeractualdemo.addEventListener("click", () =>{
 window.location.href="https://x5red78-hackc1ub.github.io/money-cliker/"
 });
 
 }
 
-if (githubrepo1) {
-  githubrepo1.addEventListener("click",()=>{
+if (passwordrepo) {
+  passwordrepo.addEventListener("click",()=>{
 window.location.href="https://github.com/x5red78-HACKC1UB/password-generator"
 });
 };
-if(actualdemo1){
-actualdemo1.addEventListener("click", () =>{
+if(passwordemo){
+passwordemo.addEventListener("click", () =>{
 window.location.href="https://x5red78-hackc1ub.github.io/password-generator/"
 });
 };
+if (calcrepo) {
+  calcrepo.addEventListener("click",()=>{
+ window.location.href="https://github.com/x5red78-HACKC1UB/Caculator";
+  });
+}
 
+if (calcdemo) {
+  calcdemo.addEventListener("click",()=>{
+window.location.href="https://x5red78-hackc1ub.github.io/Caculator/"
+  });
+}
 if (back) {
   
 
