@@ -11,6 +11,8 @@ const intro= document.getElementById("greetings");
 const calcrepo= document.getElementById("githubrepocalc");
 const calcdemo = document.getElementById("actualwebcalc");
 
+const calcrepo2= document.getElementById("githubrepocalc2");
+const calcdemo2 = document.getElementById("actualwebcalc2");
 
 
 
@@ -49,6 +51,19 @@ if (calcdemo) {
 window.location.href="https://x5red78-hackc1ub.github.io/Caculator/"
   });
 }
+
+if (calcrepo2) {
+  calcrepo.addEventListener("click",()=>{
+ window.location.href="https://github.com/x5red78-HACKC1UB/Calculator-2";
+  });
+}
+
+if (calcdemo2) {
+  calcdemo.addEventListener("click",()=>{
+window.location.href="https://x5red78-hackc1ub.github.io/Calculator-2/"
+  });
+}
+
 if (back) {
   
 

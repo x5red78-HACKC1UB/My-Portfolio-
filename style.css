@@ -136,3 +136,16 @@ right: 0;
     transform: scale(1.05);
     box-shadow: 0 0 20px rgb(55, 0, 87);
  }
+ .container5{
+    background-color: rgb(17, 225, 228);
+    height: 500px;
+    width: 430px;
+    padding: 14px;
+    border: 2px solid blanchedalmond;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+ }
+.container5:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(138, 0, 57);
+ }
