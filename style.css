@@ -149,3 +149,21 @@ right: 0;
     transform: scale(1.05);
     box-shadow: 0 0 20px rgb(138, 0, 57);
  }
+ .container6{
+    display: block;
+    position: relative;
+     top: 530px; 
+    right: 1805px; 
+    background-color: rgb(246, 201, 201);
+    height: 500px;
+    width:430;
+    padding: 14px;
+    border:2px solid #deab81;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    overflow: none;
+ }
+ .container6:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(123, 134, 218);
+ }
