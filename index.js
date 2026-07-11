@@ -1,4 +1,5 @@
 const codingButton = document.getElementById("codeprojects");
+const abtme= document.getElementById("abtme");
 const moneyclickerrepo= document.getElementById("githubrepomoney");
 const moneyclickeractualdemo = document.getElementById("actualwebmoney");
 const passwordrepo= document.getElementById("githubrepopassword");
@@ -97,3 +98,8 @@ codingButton.addEventListener("click", () => {
   window.location.href="coding.html";
 });
 };
+if (abtme) {
+  abtme.addEventListener("click",()=>{
+window.location.href="aboutme.html"
+  });
+}

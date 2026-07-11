@@ -167,3 +167,18 @@ right: 0;
     transform: scale(1.05);
     box-shadow: 0 0 20px rgb(123, 134, 218);
  }
+ #abtme{
+   margin-left: 25px;
+    margin-top: 50px;
+     background: #001358c6;
+     height: 300px;
+     width: 300px;
+     padding:30px;
+     border:5px solid #90b4fc65;
+     font-family:'Comfortaa',sans-serif;
+     transition: transform 0.2s ease;
+     border-radius: 2px;
+ }
+ #abtme:hover{
+   transform: scale(1.05);
+ }
