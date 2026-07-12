@@ -3,7 +3,7 @@ const abtme= document.getElementById("abtme");
 const moneyclickerrepo= document.getElementById("githubrepomoney");
 const moneyclickeractualdemo = document.getElementById("actualwebmoney");
 const passwordrepo= document.getElementById("githubrepopassword");
-const passwordemo = document.getElementById("actualwebpasswors");
+const passwordemo = document.getElementById("actualwebpassword");
 const lightdark= document.getElementById("light-dark");
 const back= document.getElementById("back");
 const intro= document.getElementById("greetings");
@@ -14,6 +14,8 @@ const calcdemo = document.getElementById("actualwebcalc");
 
 const calcrepo2= document.getElementById("githubrepocalc2");
 const calcdemo2 = document.getElementById("actualwebcalc2");
+
+
 
 
 
@@ -54,7 +56,7 @@ window.location.href="https://x5red78-hackc1ub.github.io/Caculator/"
 }
 
 if (calcrepo2) {
-  calcrepo.addEventListener("click",()=>{
+  calcrepo2.addEventListener("click",()=>{
  window.location.href="https://github.com/x5red78-HACKC1UB/Calculator-2";
   });
 }
@@ -64,6 +66,7 @@ if (calcdemo2) {
 window.location.href="https://x5red78-hackc1ub.github.io/Calculator-2/"
   });
 }
+
 
 if (back) {
   
@@ -103,3 +106,5 @@ if (abtme) {
 window.location.href="aboutme.html"
   });
 }
+
+
