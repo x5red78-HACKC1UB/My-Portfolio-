@@ -93,11 +93,11 @@ box-shadow: 0 0 20px rgb(2, 12, 99);
     font-family: 'Comfortaa',sans-serif;
  }
   .githubrepo:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 box-shadow: 0 0 20px rgb(72, 2, 2);
  }
  .actualweb:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 box-shadow: 0 0 20px rgb(1, 54, 38);
  }
 
@@ -114,7 +114,7 @@ box-shadow: 0 0 20px rgb(1, 54, 38);
 
 
 .backbutton:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 box-shadow: 0 0 20px rgb(1, 54, 38);
  }
 
@@ -180,8 +180,23 @@ right: 0;
      border-radius: 2px;
  }
  #abtme:hover{
-   transform: scale(1.05);
+   transform: scale(1.1);
  }
+ #email{
+   margin-left: 50px;
+   margin-top: 50px;
+   background-color: rgb(255, 255, 255);
+   height: 300px;
+   width: 300px;
+   padding: 30px;
+   border: 5px solid black;
+   font-family:'Comfortaa',sans-serif;
+   transition: transform 0.2s ease;
+   border-radius: 2px;
+   }
+   #email:hover{
+      transform: scale(1.1);
+   }
  #silly{
    margin-left: 50px;
    margin-top: 50px;
@@ -196,6 +211,9 @@ right: 0;
  #silly:hover{
    transform: scale(1.15);
    box-shadow: 0,0,17px,black;
+ }
+ #art{
+   
  }
  #codingstat{
    margin-top: 400px;
