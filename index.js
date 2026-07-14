@@ -1,5 +1,6 @@
 const codingButton = document.getElementById("codeprojects");
 const abtme= document.getElementById("abtme");
+const email= document.getElementById("email");
 const artgallery=document.getElementById("art");
 const moneyclickerrepo= document.getElementById("githubrepomoney");
 const moneyclickeractualdemo = document.getElementById("actualwebmoney");
@@ -110,6 +111,12 @@ window.location.href="aboutme.html"
 if (artgallery) {
   artgallery.addEventListener("click",()=>{
 window.location.href="artgallery.html"
+  });
+}
+if (email) {
+  email.addEventListener("click",()=>{
+window.location.href="https://mail.google.com/"
+  
   });
 }
 
