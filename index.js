@@ -119,4 +119,12 @@ window.location.href="https://mail.google.com/"
   
   });
 }
+const game=document.getElementById("game");
+const ctx=game.getContext("2d");
 
+function resizecanvas() {
+  game.width = game.clientWidth;
+   game.height = game.clientWidth * 0.6;
+}
+resizecanvas();
+window.addEventListener("resize",resizecanvas);

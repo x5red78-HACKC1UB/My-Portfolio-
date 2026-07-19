@@ -239,3 +239,19 @@ right: 0;
     border: 2px solid rgb(101, 3, 3);
     color:black
  }
+#game{
+   text-align: center;
+   background: #1f8a2c50;
+   color: rgba(6, 73, 27, 0.945);
+   width: 100%;
+   height: auto;
+   margin-top: 1000px;
+   border:2px black solid ;
+   border-radius: 3px;
+ }
+ #gamecontainer {
+   width: 100%;
+   height: auto;
+  max-width: 1350px;
+  margin: auto;
+} 
