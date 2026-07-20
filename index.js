@@ -119,6 +119,7 @@ window.location.href="https://mail.google.com/"
   
   });
 }
+//game part of the web
 const game=document.getElementById("game");
 const ctx=game.getContext("2d");
 
@@ -128,3 +129,21 @@ function resizecanvas() {
 }
 resizecanvas();
 window.addEventListener("resize",resizecanvas);
+let playerstats={
+  x:50,
+  y:0,
+  width:60,
+  height:20,
+  speed:7,
+};
+let blocks={
+  x:100,
+  y:0,
+  size:30,
+speed:4
+}
+let score =0;
+let keys={};
+
+document.addEventListener("keydown",(e)=>keys[e.key]=true);
+document.addEventListener("keyup",(e)=>keys[e.key]=true);
