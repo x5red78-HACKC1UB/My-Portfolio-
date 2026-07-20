@@ -146,4 +146,9 @@ let score =0;
 let keys={};
 
 document.addEventListener("keydown",(e)=>keys[e.key]=true);
-document.addEventListener("keyup",(e)=>keys[e.key]=true);
+document.addEventListener("keyup",(e)=>keys[e.key]=false);
+window.addEventListener("keydown", (e)=>{
+if (["ArrowLeft","ArrowRight","ArrowUp","ArrowDown"].includes(e.key)) {
+  e.preventDefault();
+}
+});
