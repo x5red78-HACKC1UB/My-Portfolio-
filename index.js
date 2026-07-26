@@ -2,20 +2,24 @@ const codingButton = document.getElementById("codeprojects");
 const abtme = document.getElementById("abtme");
 const email = document.getElementById("email");
 const artgallery = document.getElementById("art");
+const animation=document.getElementById("animation");
+
 const moneyclickerrepo = document.getElementById("githubrepomoney");
 const moneyclickeractualdemo = document.getElementById("actualwebmoney");
 const passwordrepo = document.getElementById("githubrepopassword");
 const passwordemo = document.getElementById("actualwebpassword");
-const lightdark = document.getElementById("light-dark");
+const calcrepo2 = document.getElementById("githubrepocalc2");
+const calcdemo2 = document.getElementById("actualwebcalc2");
+const calcrepo = document.getElementById("githubrepocalc");
+const calcdemo = document.getElementById("actualwebcalc");
+
+
+const lightdark=document.getElementById("light-dark")
 const back = document.getElementById("back");
 const intro = document.getElementById("greetings");
 
 
-const calcrepo = document.getElementById("githubrepocalc");
-const calcdemo = document.getElementById("actualwebcalc");
 
-const calcrepo2 = document.getElementById("githubrepocalc2");
-const calcdemo2 = document.getElementById("actualwebcalc2");
 
 
 
@@ -116,6 +120,12 @@ if (artgallery) {
 if (email) {
   email.addEventListener("click", () => {
     window.location.href = "https://mail.google.com/"
+
+  });
+}
+if (animation) {
+  animation.addEventListener("click", () => {
+    window.location.href = "animations.html"
 
   });
 }
