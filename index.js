@@ -1,6 +1,6 @@
 const codingButton = document.getElementById("codeprojects");
 const abtme = document.getElementById("abtme");
-const email = document.getElementById("email");
+const email = document.getElementById("email");  //Front page buttons
 const artgallery = document.getElementById("art");
 const animation=document.getElementById("animation");
 
@@ -8,7 +8,7 @@ const moneyclickerrepo = document.getElementById("githubrepomoney");
 const moneyclickeractualdemo = document.getElementById("actualwebmoney");
 const passwordrepo = document.getElementById("githubrepopassword");
 const passwordemo = document.getElementById("actualwebpassword");
-const calcrepo2 = document.getElementById("githubrepocalc2");
+const calcrepo2 = document.getElementById("githubrepocalc2"); // Project showcase buttons
 const calcdemo2 = document.getElementById("actualwebcalc2");
 const calcrepo = document.getElementById("githubrepocalc");
 const calcdemo = document.getElementById("actualwebcalc");
@@ -25,7 +25,7 @@ const intro = document.getElementById("greetings");
 
 
 
-
+//Button redirection
 if (moneyclickerrepo) {
   moneyclickerrepo.addEventListener("click", () => {
     window.location.href = "https://github.com/x5red78-HACKC1UB/money-cliker"
@@ -174,18 +174,21 @@ if (broswerkey===1&&broswerkey2===1) {
 }
 };
 
-document.addEventListener("keydown", (e) => keys[e.key] = true);
-document.addEventListener("keyup", (e) => keys[e.key] = false);
+
+document.addEventListener("keydown", (e) => keys[e.key.toLowerCase()] = true);
+document.addEventListener("keyup", (e) => keys[e.key.toLowerCase()] = false);
+
 
 window.addEventListener("keydown", (e) => {
-  if (["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) {
+  const horizontalKeys = ["arrowleft", "arrowright", "a", "d"];
+  if (horizontalKeys.includes(e.key.toLowerCase())) {
     e.preventDefault();
   }
 });
 
 function gameupdate() {
-  if (keys["ArrowLeft"]) playerstats.x -= playerstats.speed;
-  if (keys["ArrowRight"]) playerstats.x += playerstats.speed;
+  if (keys["arrowleft"] || keys["a"]) playerstats.x -= playerstats.speed;
+  if (keys["arrowright"] || keys["d"]) playerstats.x += playerstats.speed;
 
   blocks.y += blocks.speed;
   if (blocks.y>game.height) {
@@ -198,9 +201,6 @@ function gameupdate() {
     blocks.x<=playerstats.x +playerstats.width
   ) {
     score+=1;
-    scoreanimation();
-    playerstats.width=game.height*0.15;
-  playerstats.height=game.height*0.12;
     blocks.y=0;
      blocks.x = Math.random() * (game.width - blocks.size);
   }
@@ -224,7 +224,5 @@ function fpsLoop() {
   draw();
   requestAnimationFrame(fpsLoop);
 }
-function scoreanimation(){
-  playerstats.width=game.height*0.21;
-  playerstats.height=game.height*0.18;
-}
+
+
