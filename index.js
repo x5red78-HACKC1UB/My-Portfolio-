@@ -68,7 +68,7 @@ if (calcrepo2) {
 }
 
 if (calcdemo2) {
-  calcdemo.addEventListener("click", () => {
+  calcdemo2.addEventListener("click", () => {
     window.location.href = "https://x5red78-hackc1ub.github.io/Calculator-2/"
   });
 }
