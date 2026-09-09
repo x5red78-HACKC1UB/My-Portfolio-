@@ -1,228 +1,215 @@
 const codingButton = document.getElementById("codeprojects");
 const abtme = document.getElementById("abtme");
-const email = document.getElementById("email");  //Front page buttons
+const email = document.getElementById("email");
+//Front page buttons
 const artgallery = document.getElementById("art");
-const animation=document.getElementById("animation");
-
+const animation = document.getElementById("animation");
 const moneyclickerrepo = document.getElementById("githubrepomoney");
 const moneyclickeractualdemo = document.getElementById("actualwebmoney");
 const passwordrepo = document.getElementById("githubrepopassword");
 const passwordemo = document.getElementById("actualwebpassword");
-const calcrepo2 = document.getElementById("githubrepocalc2"); // Project showcase buttons
+const calcrepo2 = document.getElementById("githubrepocalc2");
+// Project showcase buttons
 const calcdemo2 = document.getElementById("actualwebcalc2");
 const calcrepo = document.getElementById("githubrepocalc");
 const calcdemo = document.getElementById("actualwebcalc");
-
-
-const lightdark=document.getElementById("light-dark")
-const back = document.getElementById("back");
+const game1repo = document.getElementById("githubrepogame1");
+const game1demo = document.getElementById("actualwebgame1");
+const lightdark = document.getElementById("light-dark");
+const back = document.getElementById("back"); //overall web button
 const intro = document.getElementById("greetings");
-
-
-
-
-
-
-
 
 //Button redirection
 if (moneyclickerrepo) {
-  moneyclickerrepo.addEventListener("click", () => {
-    window.location.href = "https://github.com/x5red78-HACKC1UB/money-cliker"
-  });
-};
+    moneyclickerrepo.addEventListener("click", () => {
+        window.location.href = "https://github.com/x5red78-HACKC1UB/money-cliker";
+    });
+}
 if (moneyclickeractualdemo) {
-
-  moneyclickeractualdemo.addEventListener("click", () => {
-    window.location.href = "https://x5red78-hackc1ub.github.io/money-cliker/"
-  });
-
+    moneyclickeractualdemo.addEventListener("click", () => {
+        window.location.href = "https://x5red78-hackc1ub.github.io/money-cliker/";
+    });
 }
-
 if (passwordrepo) {
-  passwordrepo.addEventListener("click", () => {
-    window.location.href = "https://github.com/x5red78-HACKC1UB/password-generator"
-  });
-};
+    passwordrepo.addEventListener("click", () => {
+        window.location.href = "https://github.com/x5red78-HACKC1UB/password-generator";
+    });
+}
 if (passwordemo) {
-  passwordemo.addEventListener("click", () => {
-    window.location.href = "https://x5red78-hackc1ub.github.io/password-generator/"
-  });
-};
+    passwordemo.addEventListener("click", () => {
+        window.location.href = "https://x5red78-hackc1ub.github.io/password-generator/";
+    });
+}
 if (calcrepo) {
-  calcrepo.addEventListener("click", () => {
-    window.location.href = "https://github.com/x5red78-HACKC1UB/Caculator";
-  });
+    calcrepo.addEventListener("click", () => {
+        window.location.href = "https://github.com/x5red78-HACKC1UB/Caculator";
+    });
 }
-
 if (calcdemo) {
-  calcdemo.addEventListener("click", () => {
-    window.location.href = "https://x5red78-hackc1ub.github.io/Caculator/"
-  });
+    calcdemo.addEventListener("click", () => {
+        window.location.href = "https://x5red78-hackc1ub.github.io/Caculator/";
+    });
 }
-
 if (calcrepo2) {
-  calcrepo2.addEventListener("click", () => {
-    window.location.href = "https://github.com/x5red78-HACKC1UB/Calculator-2";
-  });
+    calcrepo2.addEventListener("click", () => {
+        window.location.href = "https://github.com/x5red78-HACKC1UB/Calculator-2";
+    });
 }
-
 if (calcdemo2) {
-  calcdemo2.addEventListener("click", () => {
-    window.location.href = "https://x5red78-hackc1ub.github.io/Calculator-2/"
-  });
+    calcdemo2.addEventListener("click", () => {
+        window.location.href = "https://x5red78-hackc1ub.github.io/Calculator-2/";
+    });
 }
-
-
+if (game1repo) {
+    game1repo.addEventListener("click", () => {
+        window.location.href = "https://github.com/x5red78-HACKC1UB/Fruit-battle-";
+    });
+}
+if (game1demo) {
+    game1demo.addEventListener("click", () => {
+        window.location.href = "https://x5red78-hackc1ub.github.io/Fruit-battle-";
+    });
+}
 if (back) {
-
-
-  back.addEventListener("click", () => {
-    window.location.href = "index.html"
-  });
-
+    back.addEventListener("click", () => {
+        window.location.href = "index.html";
+    });
 }
 if (lightdark) {
-  lightdark.addEventListener("click", () => {
-    if (lightdark.textContent === "☼") {
-      lightdark.textContent = "⏾"
-      document.body.style.backgroundColor = "black";
-      intro.style.color = "white"
-    } else {
-      lightdark.textContent = "☼"
-      document.body.style.backgroundColor = "#e4f3ff";
-      intro.style.color = "black";
-    }
-  });
+    lightdark.addEventListener("click", () => {
+        if (lightdark.textContent === "☼") {
+            lightdark.textContent = "⏾";
+            document.body.style.backgroundColor = "black";
+            if (intro) intro.style.color = "white";
+        } else {
+            lightdark.textContent = "☼";
+            document.body.style.backgroundColor = "#e4f3ff";
+            if (intro) intro.style.color = "black";
+        }
+    });
 }
-
-
-
-
-
 if (codingButton) {
-
-
-  codingButton.addEventListener("click", () => {
-    window.location.href = "coding.html";
-  });
-};
+    codingButton.addEventListener("click", () => {
+        window.location.href = "coding.html";
+    });
+}
 if (abtme) {
-  abtme.addEventListener("click", () => {
-    window.location.href = "aboutme.html"
-  });
+    abtme.addEventListener("click", () => {
+        window.location.href = "aboutme.html";
+    });
 }
 if (artgallery) {
-  artgallery.addEventListener("click", () => {
-    window.location.href = "artgallery.html"
-  });
+    artgallery.addEventListener("click", () => {
+        window.location.href = "artgallery.html";
+    });
 }
 if (email) {
-  email.addEventListener("click", () => {
-    window.location.href = "https://mail.google.com/"
-
-  });
+    email.addEventListener("click", () => {
+        window.location.href = "https://mail.google.com/";
+    });
 }
 if (animation) {
-  animation.addEventListener("click", () => {
-    window.location.href = "animations.html"
-
-  });
+    animation.addEventListener("click", () => {
+        window.location.href = "animations.html";
+    });
 }
+
 //game part of the web
 const game = document.getElementById("game");
-const ctx = game.getContext("2d");
+if (game) {
+    const ctx = game.getContext("2d");
 
-function resizecanvas() {
-  game.width = game.clientWidth;
-  game.height = game.clientWidth * 0.6;
-}
-resizecanvas();
-window.addEventListener("resize", resizecanvas);
-let playerstats = {
-  x: 50,
-  y: 0,
-  width: game.width * 0.15,
-  height: game.width * 0.12,
-  speed: 7,
-};
-let blocks = {
-  x: 100,
-  y: 0,
-  size: 60,
-  speed: 4
-}
-let score = 0;
-let broswerkey=0;
-let broswerkey2=0;
-let keys = {};
-const playerImg= new Image();
-playerImg.src="gubby.png"
-playerImg.onload = () => {
-  console.log("Player image loaded!");
-  broswerkey=1;
-  startgame();
-};
-document.fonts.ready.then(() => {
-  console.log("Fonts loaded!");
-  broswerkey2=1;
-  startgame();
-});
-function startgame(){
-if (broswerkey===1&&broswerkey2===1) {
-  fpsLoop();
-}
-};
+    function resizecanvas() {
+        game.width = game.clientWidth;
+        game.height = game.clientWidth * 0.6;
+    }
+    resizecanvas();
+    window.addEventListener("resize", resizecanvas);
 
+    let playerstats = {
+        x: 50,
+        y: 0,
+        width: game.width * 0.15,
+        height: game.width * 0.12,
+        speed: 7,
+    };
+    let blocks = {
+        x: 100,
+        y: 0,
+        size: 60,
+        speed: 4
+    };
+    let score = 0;
+    let broswerkey = 0;
+    let broswerkey2 = 0;
+    let keys = {};
 
-document.addEventListener("keydown", (e) => keys[e.key.toLowerCase()] = true);
-document.addEventListener("keyup", (e) => keys[e.key.toLowerCase()] = false);
+    const playerImg = new Image();
+    playerImg.src = "gubby.png";
+    playerImg.onload = () => {
+        console.log("Player image loaded!");
+        broswerkey = 1;
+        startgame();
+    };
 
+    document.fonts.ready.then(() => {
+        console.log("Fonts loaded!");
+        broswerkey2 = 1;
+        startgame();
+    });
 
-window.addEventListener("keydown", (e) => {
-  const horizontalKeys = ["arrowleft", "arrowright", "a", "d"];
-  if (horizontalKeys.includes(e.key.toLowerCase())) {
-    e.preventDefault();
-  }
-});
+    function startgame() {
+        if (broswerkey === 1 && broswerkey2 === 1) {
+            fpsLoop();
+        }
+    }
 
-function gameupdate() {
-  if (keys["arrowleft"] || keys["a"]) playerstats.x -= playerstats.speed;
-  if (keys["arrowright"] || keys["d"]) playerstats.x += playerstats.speed;
+    document.addEventListener("keydown", (e) => keys[e.key.toLowerCase()] = true);
+    document.addEventListener("keyup", (e) => keys[e.key.toLowerCase()] = false);
 
-  blocks.y += blocks.speed;
-  if (blocks.y>game.height) {
-    blocks.y=0;
-    blocks.x = Math.random() * (game.width - blocks.size);
-  }
+    window.addEventListener("keydown", (e) => {
+        const horizontalKeys = ["arrowleft", "arrowright", "a", "d"];
+        if (horizontalKeys.includes(e.key.toLowerCase())) {
+            e.preventDefault();
+        }
+    });
+    function gameupdate() {
+        if (keys["arrowleft"] || keys["a"]) playerstats.x -= playerstats.speed;
+        if (keys["arrowright"] || keys["d"]) playerstats.x += playerstats.speed;
+        
+        // Prevent player from moving off screen edges
+        if (playerstats.x < 0) playerstats.x = 0;
+        if (playerstats.x > game.width - playerstats.width) playerstats.x = game.width - playerstats.width;
 
-  if (blocks.y + blocks.size>=playerstats.y &&
-    blocks.x+blocks.size>=playerstats.x &&
-    blocks.x<=playerstats.x +playerstats.width
-  ) {
-    score+=1;
-    blocks.y=0;
-     blocks.x = Math.random() * (game.width - blocks.size);
-  }
-}
-function draw() {
-  ctx.clearRect(0,0,game.width,game.height);
+        blocks.y += blocks.speed;
+        if (blocks.y > game.height) {
+            blocks.y = 0;
+            blocks.x = Math.random() * (game.width - blocks.size);
+        }
+        if (blocks.y + blocks.size >= playerstats.y && blocks.x + blocks.size >= playerstats.x && blocks.x <= playerstats.x + playerstats.width) {
+            score += 1;
+            blocks.y = 0;
+            blocks.x = Math.random() * (game.width - blocks.size);
+        }
+    }
 
-ctx.drawImage(playerImg,playerstats.x,playerstats.y,playerstats.width,playerstats.height);
+    function draw() {
+        ctx.clearRect(0, 0, game.width, game.height);
+        ctx.drawImage(playerImg, playerstats.x, playerstats.y, playerstats.width, playerstats.height);
+        ctx.fillStyle = "green";
+        ctx.fillRect(blocks.x, blocks.y, blocks.size, blocks.size);
+        // Score
+        ctx.fillStyle = "rgba(5,94,11,0.9)";
+        ctx.font = "20px 'Press Start 2P'";
+        ctx.fillText(score, 60, 60);
+    }
 
-  ctx.fillStyle="green"
-  ctx.fillRect(blocks.x,blocks.y,blocks.size,blocks.size);
-
-  //Scroe
-  ctx.fillStyle="rgba(5,94,11,0.9)"
- ctx.font = "20px 'Press Start 2P'";
-  ctx.fillText(score,60,60);
-}
-function fpsLoop() {
-  playerstats.y = game.height-playerstats.height-10;
-  gameupdate();
-  draw();
-  requestAnimationFrame(fpsLoop);
+    function fpsLoop() {
+        playerstats.y = game.height - playerstats.height - 10;
+        gameupdate();
+        draw();
+        requestAnimationFrame(fpsLoop);
+    }
 }
 
 
